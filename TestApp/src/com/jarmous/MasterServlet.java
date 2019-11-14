@@ -16,10 +16,9 @@ public class MasterServlet extends HttpServlet
 	
 	if(p == "admin"&& q == "12345678")
 	{
-		
 		res.getWriter().println(" User Identified:" + p);
-	}
+	}else{
 	res.getWriter().println(" Unauthorized user! ");
 	}
-
+	}
 }
